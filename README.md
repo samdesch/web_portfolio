@@ -8,35 +8,19 @@ This page was created in order for me to showcase the various projects that I wi
 
 Although the "Work" section currently does not link to any completed projects, in the future it will include web applications created using HTML, CSS JavaScript, Node, React, and several databases, SQL and MongoDB chief among them.
 ​
-even talk about some of the challenges you faced and features you hope to implement in the future.
 ​
-needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? What problem does it solve? What did you learn? What makes your project stand out?
-​
-include a link to the deployed application here.
-​
+Link to deployed application:
+​https://samdesch.github.io/web_portfolio/
 
 ## Usage
 
-​
-Provide instructions and examples for use. Include screenshots as needed.
-​
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-​
-
-```md
-![alt text](assets/images/screenshot.png)
-```
+![Web Portfolio](../assets/images/webPortfolio.jpg)
 
 ​
 
 ## Credits
 
-​
-List your collaborators, if any, with links to their GitHub profiles.
-​
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-​
-If you followed tutorials, include links to those here as well.
+​In addition to information from in-class lectures courtesy of Trilogy, Inc. and the University of Minnesota - Twin Cities, I also made use of w3schools.com for information on both CSS and HTML.
 ​
 ​
 

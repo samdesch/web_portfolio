@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Web Portfolio | Sam Desch</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,20 +13,64 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <h1>Sam Desch</h1>
       <nav>
         <ul>
-          <li>About Me</li>
-          <li>Work</li>
-          <li>Contact Me</li>
-          <li>Resume</li>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+          <li><a href="#">Resume</a></li>
         </ul>
       </nav>
     </header>
 
-    <main></main>
+    <section class="hero">
+      <p>Web Portfolio</p>
+    </section>
+
+    <main>
+      <section class="aboutMe">
+        <h2 id="aboutMe">About Me</h2>
+        <p>
+          Hello! I'm a web developer-to-be currently gaining experience in
+          MERN-based web applications. <br /><br />
+          When I'm not studying, I enjoy cooking, gaming, podcasts, hiking, and
+          just enjoying time outdoors. My previous background was in modern
+          languages, and while Spanish is the only foreign language in which I
+          have a working proficiency, I've also dabbled in Arabic, German,
+          Russian and Portuguese (and greatly enjoy reading in a handful of
+          other Romance languages).
+        </p>
+      </section>
+
+      <section class="work">
+        <h2 id="work">Work</h2>
+        <section id="dayPlanner">Day Planner</section>
+        <section id="weatherDashboard">Weather Dashboard</section>
+        <section id="calculator">Calculator</section>
+        <section id="techBlog">Tech Blog</section>
+      </section>
+
+      <section class="contactMe">
+        <h2 id="contactMe">Contact Me</h2>
+        <ul>
+          <a href="tel: +1 651-890-6356">
+            <li>651-890-6356</li>
+          </a>
+          <a href="mailto:sam.desch@gmail.com">
+            <li>sam.desch@gmail.com</li>
+          </a>
+          <a href="https://github.com/samdesch" target="_blank">
+            <li>GitHub</li>
+          </a>
+          <a href="#"><li>Twitter</li></a>
+          <a href="#"><li>Spotify</li></a>
+        </ul>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

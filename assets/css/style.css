@@ -1,0 +1,148 @@
+header {
+  width: 100%;
+  background-color: rgb(54, 51, 51);
+  height: 70px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  height: 45px;
+  width: 200px;
+  background-color: rgb(111, 172, 167);
+  color: rgb(54, 51, 51);
+  padding: 5px 5px 5px 40px;
+  font-family: "Prompt", sans-serif;
+  display: flex;
+  margin-top: 2px;
+  font-size: 225%;
+}
+
+nav {
+  width: 750px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+  width: 750px;
+}
+
+header nav ul li {
+  color: rgb(102, 205, 196);
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid rgb(102, 205, 196);
+}
+
+nav ul li:hover {
+  background-color: rgb(102, 205, 196);
+  color: rgba(54, 51, 51, 1);
+  cursor: pointer;
+}
+
+nav a:visited {
+  color: rgb(111, 172, 167);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contactMe a:hover {
+  background-color: rgb(54, 51, 51);
+  color: rgb(111, 172, 167);
+}
+
+.hero {
+  background-image: url(../images/heroImage.jpg);
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.hero p {
+  display: flex;
+  margin-left: 1000px;
+  margin-top: 150px;
+  width: 110px;
+  height: 30px;
+  background-color: rgb(102, 205, 196);
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
+}
+
+main {
+  font-family: "Prompt", sans-serif;
+  background-color: rgba(247, 247, 247, 0.986);
+}
+
+h2 {
+  float: left;
+  border-right: 4px solid darkgrey;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.work h2 {
+  margin-left: 55px;
+}
+
+.work {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#dayPlanner {
+  border: 4px solid rgb(102, 205, 196);
+  height: 150px;
+  width: 175px;
+  background-image: url(../images/calendar.jpg);
+  background-size: cover;
+  margin-left: 100px;
+}
+
+#weatherDashboard {
+  border: 4px solid rgb(102, 205, 196);
+  height: 150px;
+  width: 175px;
+  background-image: url(../images/weather.jpg);
+  background-size: cover;
+}
+
+#calculator {
+  border: 4px solid rgb(102, 205, 196);
+  height: 150px;
+  width: 175px;
+  background-image: url(../images/calculator.jpg);
+  background-size: cover;
+}
+
+#techBlog {
+  border: 4px solid rgb(102, 205, 196);
+  height: 150px;
+  width: 175px;
+  background-image: url(../images/technology.jpg);
+  background-size: cover;
+}
+
+/* .contactMe {
+  background-color: rgba(247, 247, 247, 0.986);
+} */
+
+.contactMe ul {
+  list-style: none;
+  display: flex;
+  font-family: "Prompt", sans-serif;
+  flex-direction: row;
+  justify-content: space-around;
+}
