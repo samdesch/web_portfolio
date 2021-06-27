@@ -7,6 +7,7 @@
 This page was created in order for me to showcase the various projects that I will have completed in the next five months and beyond, as well as personal information such as contact info, current resume, and a concise, relevant biography.
 
 Although the "Work" section currently does not link to any completed projects, in the future it will include web applications created using HTML, CSS JavaScript, Node, React, and several databases, SQL and MongoDB chief among them.
+
 ​
 ​
 Link to deployed application:
@@ -14,7 +15,7 @@ Link to deployed application:
 
 ## Usage
 
-![Web Portfolio](../assets/images/webPortfolio.jpg)
+![Web Portfolio](./assets/images/webPortfolio.jpg)
 
 ​
 
